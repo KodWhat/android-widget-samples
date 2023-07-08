@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidWidgetSamples</string>
+    <string name="xml_widget_description">Sample XML-defined widget</string>
 </resources>

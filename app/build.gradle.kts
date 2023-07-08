@@ -9,7 +9,7 @@ android {
 
 	defaultConfig {
 		applicationId = "me.flavienlefebvre.androidwidgetsamples"
-		minSdk = 24
+		minSdk = 32
 		targetSdk = 33
 		versionCode = 1
 		versionName = "1.0"
@@ -54,5 +54,6 @@ dependencies {
 	implementation(libs.ui.graphics)
 	implementation(libs.ui.tooling.preview)
 	implementation(libs.material3)
+	implementation(libs.material)
 	debugImplementation(libs.ui.tooling)
 }

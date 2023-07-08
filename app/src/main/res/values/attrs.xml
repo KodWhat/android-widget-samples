@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WidgetsAttrs">
+        <attr name="widgetPadding" format="dimension" />
+        <attr name="widgetInnerRadius" format="dimension" />
+        <attr name="widgetRadius" format="dimension" />
+    </declare-styleable>
+</resources>

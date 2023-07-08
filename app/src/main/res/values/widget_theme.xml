@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Widget.ContainerParent" parent="Theme.Material3.DynamicColors.Light">
+        <item name="android:background">@android:color/system_accent2_50</item><!-- Matches color used on official clock app -->
+        <item name="widgetRadius">@android:dimen/system_app_widget_background_radius</item>
+        <item name="widgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+    </style>
+
+    <style name="Theme.Widget.Container" parent="Theme.Widget.ContainerParent">
+        <item name="widgetPadding">16dp</item>
+    </style>
+</resources>
